@@ -1,0 +1,253 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*width:15%;*/
+
+body {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    margin: 0;
+    padding: 0;
+}
+
+/*header start */
+.header {
+    padding: 15px 0;
+}
+
+.container {
+    /* border: 1px solid red;*/
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    /*border: 1px solid red;*/
+    width: 13%;
+    float: left;
+    margin-top: 8px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    /*border: 1px solid red;*/
+    width: 70%;
+    float: right;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    list-style-type: none;
+    float: left;
+}
+
+.menu ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 50px;
+    border-bottom: 1px solid transparent;
+}
+
+.menu ul li:last-child a {
+    margin-right: 0;
+}
+
+.menu ul li a:hover {
+    border-bottom: 1px solid #626262;
+}
+
+/*header end */
+/*banner start */
+.banneer {}
+
+.b-img {
+    width: 100%;
+}
+
+/*banner end */
+/*perfect start*/
+.perfect {
+    padding: 70px 0;
+}
+
+.containar2 {
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    /*    border: 1px solid red;*/
+}
+
+.p-content {}
+
+.light {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.c-h1 {
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.c-p {
+    /*    letter-spacing: ;*/
+    /*    word-spacing: ;*/
+    line-height: 25px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+/*perfect end*/
+
+/*blog start*/
+.blog {
+    padding: 70px;
+}
+
+.single {
+    width: 47%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.single:nth-child(even) {
+    margin-left: 6%;
+}
+
+.single img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/*blog end*/
+
+/*news start*/
+.newsletter{
+	background-color: #f0f0f0;
+	padding: 50px 0;
+}
+.newsletter .newsletter-content{
+	text-align: center;
+}
+.newsletter .newsletter-input{
+	width: 40%;
+	margin: auto;
+	border-bottom: 1px solid #000;
+}
+.newsletter .newsletter-input .form-control {
+	width: 90%;
+	padding: 5px;
+	border: none;
+	background: transparent;
+	margin-top: 30px;
+}
+.newsletter .newsletter-input .form-control:focus{
+	outline: none;
+}
+
+/*news end*/
+/*load start*/
+.load {
+    text-align: center;
+
+}
+
+.load button {
+    width: 160px;
+    height: 60px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #626262;
+    background-color: transparent;
+    border: 1px solid #626262;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.load button:hover {
+    background-color: #626262;
+    color: white;
+}
+
+.load button:focus {
+    outline: 0;
+}
+
+/*load end*/
+/*fotter start*/
+footer{
+	background-color: #f0f0f0;
+	padding: 30px 0;
+	overflow: hidden;
+}
+
+footer  .copyright{
+	width: 50%;
+	float: left;
+}
+footer  .copyright ul{
+	list-style-type: none;
+}
+footer .copyright ul li{
+	display: inline;
+}
+footer  .copyright ul li a{
+	font-weight: 400;
+	color: #202020;
+	text-decoration: none;
+	display: inline-block;
+	padding-right: 20px;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+footer  .copyright ul li a:hover{
+	color: #000;
+}
+footer  .social{
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+footer  .social h5{
+	color: #202020;
+	text-decoration: none;
+	display: inline;
+	padding-right: 20px;
+}
+footer  .social ul{
+	list-style-type: none;
+	display: inline;
+}
+footer  .social ul li{
+	display: inline;
+}
+footer  .social ul li a{
+	color: #626262;
+	display: inline-block;
+	padding-left: 20px;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+footer  .social ul li a:hover{
+	color: #000;
+}
+
+/*fotter end*/
